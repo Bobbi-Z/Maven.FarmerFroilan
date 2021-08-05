@@ -7,8 +7,9 @@ public class Person extends Animal {
      * <Noisemaker>makeNoise(AHHHHHHHH)</Noisemaker>
      * <Eater>eat();</Eater>
      * <Eater>hasEaten();</Eater>
-     *
-     *
-     *
+     *nap();
+     *sleep();
+     *wakeUp();
+     * party();
      */
 }
