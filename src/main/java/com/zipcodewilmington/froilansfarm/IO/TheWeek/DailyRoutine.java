@@ -31,8 +31,6 @@ public interface DailyRoutine {
      *       feed() // add chicken feed to edibles
      *      <Chicken>eat()</Chicken>
      *      <Chicken>hasEaten(True)</Chicken>
-     *  > Feed horses
-
      *  >Eat breakfast
      *      <Edible>isPrepared(false)</Edible>
      *      cook(Edible)
@@ -44,13 +42,13 @@ public interface DailyRoutine {
      *      cook(Edible)
      *      <Edible>isEdible(true)</Edible>
      *      eat(Edible)
-     *      isfull() //when enough edibles have been consumed Froilan = 4 & Froilanda = 3
+     *      hasEaten() //when enough edibles have been consumed Froilan = 4 & Froilanda = 3
      *  >Eat Dinner
      *      <Edible>isEdible(false)</Edible>
      *      cook(Edible)
      *      <Edible>isEdible(true)</Edible>
      *      eat(Edible)
-     *      isfull() //when enough edibles have been consumed Froilan = 12 & Froilanda = 9
+     *      hasEaten() //when enough edibles have been consumed Froilan = 12 & Froilanda = 9
      *  >Sleep
      *      sleep() //end day
      *      reset any an all methods that need to be
