@@ -1,9 +1,8 @@
 package com.zipcodewilmington.froilansfarm.MultipackageInterfaces;
 
-public interface NoiseMaker {
+public interface Rideable {
     /**
-     * makeNoise();
-     *
-     *
+     * hasBeenRidden();
+     *move();
      */
 }

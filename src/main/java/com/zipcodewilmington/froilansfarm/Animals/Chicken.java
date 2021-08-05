@@ -10,6 +10,7 @@ public class Chicken extends Animal implements Producer {
      * hasEgg(); -results after every yield
      * <Eater>hasEaten();</Eater> default false until farmer feeds reset every day
      *<Eater>eat(CHICKEN FEED);</Eater>
+     * <NoiseMaker>makeNoise(Cluck)</NoiseMaker>
      *
      */
 

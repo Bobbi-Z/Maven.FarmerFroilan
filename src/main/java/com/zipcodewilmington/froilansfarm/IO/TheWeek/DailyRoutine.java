@@ -6,15 +6,20 @@ public interface DailyRoutine {
      * Froilan & Froilanda
      *  >WakeUp
      *      wakeUp() //start day
-     *  >Ride all horses
+     *  >Horses
+     *      <Horse>hasBeenGroomed()</Horse>
+     *       groom();
      *     <Horse>hasBeenExercised(False)</Horse>
-     *     remove(Stable)
      *     mount
      *      ride
      *      <Horse> move()</Horse>
      *      dismount()
      *       <Horse>hasBeenExercised(True)</Horse>
      *       store(Stable)
+     *      <Horse>hasEaten(False)</Horse>
+     *      feed //horse food to edibles
+     *      <Horse>eat()</Horse>
+     *      <Horse>hasEaten(true)</Horse>
      *  > Chickens
      *      <chicken>yield(1 egg)</chicken>
      *      <chicken>hasEgg(True)</chicken>
@@ -27,10 +32,7 @@ public interface DailyRoutine {
      *      <Chicken>eat()</Chicken>
      *      <Chicken>hasEaten(True)</Chicken>
      *  > Feed horses
-     *      <Horse>hasEaten(False)</Horse>
-     *      feed //horse food to edibles
-     *      <Horse>eat()</Horse>
-     *      <Horse>hasEaten(true)</Horse>
+
      *  >Eat breakfast
      *      <Edible>isPrepared(false)</Edible>
      *      cook(Edible)

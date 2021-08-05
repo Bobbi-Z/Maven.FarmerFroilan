@@ -1,7 +1,7 @@
 package com.zipcodewilmington.froilansfarm.Vehicles;
 
 import com.zipcodewilmington.froilansfarm.MultipackageInterfaces.NoiseMaker;
-import com.zipcodewilmington.froilansfarm.MultipackageInterfaces.Ridable;
+import com.zipcodewilmington.froilansfarm.MultipackageInterfaces.Rideable;
 
-public interface Vehicle extends NoiseMaker, Ridable {
+public interface Vehicle extends NoiseMaker, Rideable {
 }
