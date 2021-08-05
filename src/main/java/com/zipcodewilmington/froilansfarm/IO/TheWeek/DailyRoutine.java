@@ -15,23 +15,22 @@ public interface DailyRoutine {
      *      dismount()
      *       <Horse>hasBeenExercised(True)</Horse>
      *       store(Stable)
-     *  > collect all eggs
+     *  > Chickens
      *      <chicken>yield(1 egg)</chicken>
      *      <chicken>hasEgg(True)</chicken>
      *      checkFertilized() // check if the hen slept in the same coop as the rooster
-     *      collect(cickencoop)
+     *      collect(eggs)
      *      <chicken>hasEgg(False)</chicken>
-     *      store(shed)
+     *      store(foodstorage OR incubator)
+     *      <Chicken>hasEaten(False)</Chicken>
+     *       feed() // add chicken feed to edibles
+     *      <Chicken>eat()</Chicken>
+     *      <Chicken>hasEaten(True)</Chicken>
      *  > Feed horses
      *      <Horse>hasEaten(False)</Horse>
      *      feed //horse food to edibles
      *      <Horse>eat()</Horse>
      *      <Horse>hasEaten(true)</Horse>
-     *  >Feed Chickens
-     *      <Chicken>hasEaten(False)</Chicken>
-     *      feed() // add chicken feed to edibles
-     *      <Chicken>eat()</Chicken>
-     *      <Chicken>hasEaten(True)</Chicken>
      *  >Eat breakfast
      *      <Edible>isPrepared(false)</Edible>
      *      cook(Edible)
@@ -52,6 +51,7 @@ public interface DailyRoutine {
      *      isfull() //when enough edibles have been consumed Froilan = 12 & Froilanda = 9
      *  >Sleep
      *      sleep() //end day
+     *      reset any an all methods that need to be
      *
      */
 

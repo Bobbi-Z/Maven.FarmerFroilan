@@ -8,7 +8,8 @@ public class Chicken extends Animal implements Producer {
      * slept in the coop with the rooster. Random # generator representing a 25% chance.
      * <Producer>yield(Egg)</Producer> //1 egg per chicken per day
      * hasEgg(); -results after every yield
-     *
+     * <Eater>hasEaten();</Eater> default false until farmer feeds reset every day
+     *<Eater>eat(CHICKEN FEED);</Eater>
      *
      */
 
