@@ -8,7 +8,7 @@ public interface Vehicle extends NoiseMaker, Rideable {
      * <NoiseMaker>makeNoise(vroom)</NoiseMaker>
      * <Rideable>hasBeenRidden</Rideable>
      * <Rideable>move()</Rideable>
-     * refuel();
+     * hasFuel();
      *
      *
      */

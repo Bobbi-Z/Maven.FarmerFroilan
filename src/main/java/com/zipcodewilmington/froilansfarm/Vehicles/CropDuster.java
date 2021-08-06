@@ -9,10 +9,10 @@ public class CropDuster implements FarmVehicle <Farmer> , Aircraft <Pilot<Person
      *  <NoiseMaker>makeNoise(vroom)</NoiseMaker>
      *  <Rideable>hasBeenRidden</Rideable>
      *  <Rideable>move()</Rideable>
-     *   <Vehicle></Vehicle>refuel();
+     *   <Vehicle></Vehicle>hasFuel()
      *      <Aircraft></Aircraft>fly();
      *  <FarmVehicle></FarmVehicle> operateOnFarm();
-     *  fertilizes();
+     *  hasFertilizer();
      *
      */
 }

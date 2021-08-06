@@ -19,7 +19,7 @@ public class Farm implements Container{
      *Contains 1 Farmhouse which stores 2 people
      *  Froilan & Froilanda
      *
-     *Contains 1 Field which stores 5 CropRow which each have 10 Crops
+     *Contains 1 Field which stores 5 CropRow which each have 30 Crops (150 total)
      *
      *Contains 1 Incubator which stores a variable number of BabyChicks
      *

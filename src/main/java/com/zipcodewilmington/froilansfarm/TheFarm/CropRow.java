@@ -8,9 +8,9 @@ public class CropRow implements Container{
      * <Container></Container>status(Crop);//Update
      * <Container></Container>remove(Crop); // Delete
      * maintains list of crops
-     * PotatoRoot - 20 total 10 row 1 10 row 2
-     * CornStalk - 20 total 10 row 3 10 row 4
-     * TomatoPlant - 10 row 5
+     * PotatoRoot - 60 total 30 row 1 30 row 2
+     * CornStalk - 60 total 30 row 3 30 row 4
+     * TomatoPlant - 30 total row 5
      *
      *
      */

@@ -15,7 +15,7 @@ public class Field implements Container{
      *  1 & 2 contain potatoroots
      *  3 & 4 contain corn stalks
      *  5 contains tomatoplants
-     *  10 plants per row
+     *  30 plants per row
      *
      */
 

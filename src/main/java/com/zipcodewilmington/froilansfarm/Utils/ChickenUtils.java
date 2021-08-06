@@ -6,7 +6,7 @@ public class ChickenUtils {
      * hasRooster(); DAILY
      * checkFertilized() DAILY
      * collectEggs(); DAILY
-     *sellBabyChicks(); FRIDAY
+     *
      */
 
 

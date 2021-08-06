@@ -5,7 +5,7 @@ public interface FarmVehicle <Farmer> extends Vehicle{
      * <NoiseMaker>makeNoise(vroom)</NoiseMaker>
      * <Rideable>hasBeenRidden</Rideable>
      * <Rideable>move()</Rideable>
-     * <Vehicle></Vehicle>refuel();
+     * <Vehicle></Vehicle>hasFuel();
      * operateOnFarm();
      *
      */
