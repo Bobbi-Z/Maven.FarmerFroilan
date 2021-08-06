@@ -4,6 +4,7 @@ public interface Edible {
     /**
      * cook(Edible);
      * isPrepared();
+     * moveToFoodStorage();
      *
      *
      */
