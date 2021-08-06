@@ -12,7 +12,7 @@ public class CropRow implements Container{
      * CornStalk - 60 total 30 row 3 30 row 4
      * TomatoPlant - 30 total row 5
      *
-     *
+     *First In, First Updated, First Out (data type queue) maybe a linked list
      */
 
 

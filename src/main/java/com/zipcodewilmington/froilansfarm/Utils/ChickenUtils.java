@@ -3,9 +3,8 @@ package com.zipcodewilmington.froilansfarm.Utils;
 public class ChickenUtils {
     /**Actions farmer takes to maintain the chickens
      * assignCoop(); DAILY
-     * hasRooster(); DAILY
+     * sleptWithRooster()
      * checkFertilized() DAILY
-     * collectEggs(); DAILY
      *
      */
 

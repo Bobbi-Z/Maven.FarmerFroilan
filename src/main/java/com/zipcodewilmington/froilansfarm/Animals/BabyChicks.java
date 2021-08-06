@@ -5,6 +5,8 @@ public class BabyChicks {
      *
      *hatches(Fertilized Eggs);
      *
+     * 0-4 a day
+     *0-28 a week
      */
 
 
