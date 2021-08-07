@@ -5,7 +5,7 @@ import com.zipcodewilmington.froilansfarm.Animals.Chicken;
 import com.zipcodewilmington.froilansfarm.Edibles.Edible;
 import com.zipcodewilmington.froilansfarm.MultipackageInterfaces.Rideable;
 import com.zipcodewilmington.froilansfarm.TheFarm.CropsCropRowField.Crop;
-import com.zipcodewilmington.froilansfarm.Vehicles.Consumable;
+import com.zipcodewilmington.froilansfarm.MultipackageInterfaces.Consumable;
 
 public class Farmer extends Person implements Botanist <Person>, Rider <Person>{
 

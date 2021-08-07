@@ -4,6 +4,6 @@ import com.zipcodewilmington.froilansfarm.TheFarm.CropsCropRowField.Crop;
 
 public interface Pilot <Farmer>  {
 
-    <T extends Crop> String fertilizes();
+    <T extends Crop> String fertilize();
 
 }
