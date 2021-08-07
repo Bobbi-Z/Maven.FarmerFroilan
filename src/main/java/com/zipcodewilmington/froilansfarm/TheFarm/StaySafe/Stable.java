@@ -1,17 +1,38 @@
 package com.zipcodewilmington.froilansfarm.TheFarm.StaySafe;
 
-public class Stable extends Shelter{
+import com.zipcodewilmington.froilansfarm.TheFarm.Container;
+
+public class Stable extends Shelter <Container> {
+
     /**
-     * <Container></Container>store(Horse); //Create
-     * <Container></Container>searchFor(Horse); //Read
-     * <Container></Container>listAll(Horse); //Read
-     * <Container></Container>status(Horse);//Update
-     * <Container></Container>remove(Horse); // Delete
      * Maintains a list of Horses there are 9
-     *
-     *
-     *
      */
+
+    @Override
+    public Object findSpecific() {
+        return null;
+    }
+
+    @Override
+    public Object listAll() {
+        return null;
+    }
+
+    @Override
+    public Object status() {
+        return null;
+    }
+
+    @Override
+    public Object remove() {
+        return null;
+    }
+
+    @Override
+    public Object store() {
+        return null;
+    }
+
 
 
 

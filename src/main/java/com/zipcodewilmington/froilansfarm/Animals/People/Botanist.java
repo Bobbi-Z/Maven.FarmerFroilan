@@ -1,10 +1,10 @@
 package com.zipcodewilmington.froilansfarm.Animals.People;
 
-public interface Botanist <Person>{
-    /**
-     * plant(crop)
-     *
-     *
-     *
-     */
+import com.zipcodewilmington.froilansfarm.TheFarm.CropsCropRowField.Crop;
+
+public interface Botanist <T extends Person>{
+
+
+    <T extends Crop> String plant();
+
 }

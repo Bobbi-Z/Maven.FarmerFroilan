@@ -1,11 +1,11 @@
 package com.zipcodewilmington.froilansfarm.TheFarm;
 
-public interface Container {
-    /** CRRUD
-     * store(Type); //Create
-     * searchFor(Type); //Read
-     * listAll(Type); //Read
-     * status(Type);//Update
-     * remove(Type); // Delete
-     */
+public interface Container <T> {
+
+    T findSpecific(); //Read
+    T listAll(); //Read
+    T status(); //Update
+    T remove (); //Delete
+    T store(); //Create
+
 }

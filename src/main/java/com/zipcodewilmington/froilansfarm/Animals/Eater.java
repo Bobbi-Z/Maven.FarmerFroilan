@@ -1,10 +1,11 @@
 package com.zipcodewilmington.froilansfarm.Animals;
 
-public interface Eater {
-    /**
-     * eat(Edible);
-     * hasEaten();
-     */
+import com.zipcodewilmington.froilansfarm.Edibles.Edible;
+
+public interface Eater{
+
+    <T extends Edible> String eat();
+  <T extends Animal>  Boolean hasEaten();
 
 
 }

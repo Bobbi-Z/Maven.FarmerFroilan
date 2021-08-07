@@ -1,10 +1,9 @@
 package com.zipcodewilmington.froilansfarm.Animals.People;
 
+import com.zipcodewilmington.froilansfarm.TheFarm.CropsCropRowField.Crop;
+
 public interface Pilot <Farmer>  {
-    /**
-     *
-     *fertilizes(Crop);
-     *
-     *
-     */
+
+    <T extends Crop> String fertilizes();
+
 }
