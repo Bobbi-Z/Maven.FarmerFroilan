@@ -1,12 +1,14 @@
 package com.zipcodewilmington.froilansfarm.Animals;
 
 import com.zipcodewilmington.froilansfarm.MultipackageInterfaces.Producer;
+import com.zipcodewilmington.froilansfarm.TheFarm.Store;
 
-public class Chicken extends Animal implements Producer {
+public class Chicken extends Animal implements Producer, Store {
 
     private Integer id;
     private Integer coopNumber;
     private Boolean hasEaten;
+    private String gender;
     private Integer yield;
     private Boolean hasEgg;
     private Boolean hasBeenFertilized;
@@ -16,10 +18,11 @@ public class Chicken extends Animal implements Producer {
    }
 
 
-    public Chicken(Integer id, Integer coopNumber, Boolean hasEaten, Integer yield, Boolean hasEgg, Boolean hasBeenFertilized) {
+    public Chicken(Integer id, Integer coopNumber,  Boolean hasEaten, String gender, Integer yield, Boolean hasEgg, Boolean hasBeenFertilized) {
         this.id = id;
         this.coopNumber = coopNumber;
         this.hasEaten = hasEaten;
+        this.gender = gender;
         this.yield = yield;
         this.hasEgg = hasEgg;
         this.hasBeenFertilized = hasBeenFertilized;
@@ -73,6 +76,15 @@ public class Chicken extends Animal implements Producer {
         this.hasBeenFertilized = hasBeenFertilized;
     }
 
+    public String getMale() {
+        return gender;
+    }
+
+    public void setMale(String gender) {
+        this.gender = gender
+        ;
+    }
+
 
     @Override
     public String eat() {
@@ -99,6 +111,18 @@ public class Chicken extends Animal implements Producer {
         return null;
     }
 
+    @Override
+    public String toString() {
+        return "Chicken{" +
+                "id=" + id +
+                ", coopNumber=" + coopNumber +
+                ", hasEaten=" + hasEaten +
+                ", gender=" + gender +
+                ", yield=" + yield +
+                ", hasEgg=" + hasEgg +
+                ", hasBeenFertilized=" + hasBeenFertilized +
+                '}';
+    }
 
 
     /**creates instances of chickens that get organized in the chicken coop category

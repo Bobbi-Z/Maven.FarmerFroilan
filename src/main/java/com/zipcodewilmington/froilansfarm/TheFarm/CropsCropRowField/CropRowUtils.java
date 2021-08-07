@@ -1,8 +1,9 @@
 package com.zipcodewilmington.froilansfarm.TheFarm.CropsCropRowField;
 
 import com.zipcodewilmington.froilansfarm.TheFarm.Container;
+import com.zipcodewilmington.froilansfarm.TheFarm.Store;
 
-public class CropRowUtils implements Container <Crop> {
+public class CropRowUtils <T extends Crop> implements Container<T> {
     /**
      * maintains list of crops
      * PotatoRoot - 60 total 30 row 1 30 row 2
@@ -12,27 +13,27 @@ public class CropRowUtils implements Container <Crop> {
      */
     
     @Override
-    public CropRow findSpecific() { //by rowNumber
+    public T findSpecific() { //by rowNumber
         return null;
     }
 
     @Override
-    public CropRow listAll() { 
+    public T listAll() {
         return null;
     }
 
     @Override
-    public CropRow status() { //update
+    public T status() { //update
         return null;
     }
 
     @Override
-    public CropRow remove() { //delete
+    public T remove() { //delete
         return null;
     }
 
     @Override
-    public CropRow store() { //add
+    public T store() { //add
         return null;
     }
     

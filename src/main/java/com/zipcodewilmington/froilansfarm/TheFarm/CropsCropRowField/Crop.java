@@ -2,12 +2,15 @@ package com.zipcodewilmington.froilansfarm.TheFarm.CropsCropRowField;
 
 import com.zipcodewilmington.froilansfarm.Edibles.Edible;
 import com.zipcodewilmington.froilansfarm.MultipackageInterfaces.Producer;
+import com.zipcodewilmington.froilansfarm.TheFarm.Store;
 
-public abstract class Crop implements Producer {
+public abstract class Crop implements Producer, Store {
+
+    //defines a generic contructor for Crop
 
     protected Integer number;
     protected Integer rowNumber;
-    protected String type;
+    protected String type; // can this be an Enum?
     protected Boolean hasBeenFertilized;
     protected Integer yield;
 

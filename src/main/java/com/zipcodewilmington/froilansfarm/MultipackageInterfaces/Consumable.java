@@ -1,6 +1,8 @@
 package com.zipcodewilmington.froilansfarm.MultipackageInterfaces;
 
-public abstract class Consumable {
+import com.zipcodewilmington.froilansfarm.TheFarm.Store;
+
+public abstract class Consumable implements Store {
 
     protected String type;
     protected Integer count;

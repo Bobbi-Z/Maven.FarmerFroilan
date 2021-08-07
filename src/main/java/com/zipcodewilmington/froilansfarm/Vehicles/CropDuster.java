@@ -4,7 +4,7 @@ import com.zipcodewilmington.froilansfarm.Animals.People.Farmer;
 import com.zipcodewilmington.froilansfarm.Animals.People.Person;
 import com.zipcodewilmington.froilansfarm.Animals.People.Pilot;
 
-public class CropDuster implements FarmVehicle <Farmer> , Aircraft <Pilot<Farmer>> {
+public class CropDuster implements FarmVehicle, Aircraft {
     @Override
     public String fly() {
         return null;
@@ -39,7 +39,8 @@ public class CropDuster implements FarmVehicle <Farmer> , Aircraft <Pilot<Farmer
     public Boolean hasFuel() {
         return null;
     }
-    /**
-     *  hasFertilizer();
-     */
+
+    public Boolean hasFertilizer(){
+        return null;
+    }
 }

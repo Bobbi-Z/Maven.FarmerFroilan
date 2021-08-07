@@ -1,12 +1,21 @@
 package com.zipcodewilmington.froilansfarm.Utils;
 
-public class ChickenUtils {
-    /**Actions farmer takes to maintain the chickens
-     * assignCoop(); DAILY
-     * sleptWithRooster()
-     * checkFertilized() DAILY
-     *
-     */
+import com.zipcodewilmington.froilansfarm.Animals.Chicken;
+
+public class ChickenUtils <Chicken>{
+
+    public String assignCoop(){
+        return null;
+    }
+
+    public  Boolean sleptWithRooster(){
+        return null;
+    }
+
+    public Boolean checkIfFertilized(){
+        return null;
+    }
+
 
 
 }

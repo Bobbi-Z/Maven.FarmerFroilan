@@ -1,8 +1,9 @@
 package com.zipcodewilmington.froilansfarm.Edibles;
 
 import com.zipcodewilmington.froilansfarm.MultipackageInterfaces.Consumable;
+import com.zipcodewilmington.froilansfarm.TheFarm.Store;
 
-public class ChickenFeed extends Consumable implements Edible {
+public class ChickenFeed extends Consumable implements Edible, Store {
 
     /**
      * start with 420 feeds (a month)

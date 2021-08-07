@@ -1,28 +1,30 @@
 package com.zipcodewilmington.froilansfarm.TheFarm;
 
-public class Garage <FarmVehicle> implements Container{
+import com.zipcodewilmington.froilansfarm.Vehicles.FarmVehicle;
+
+public class Garage <T extends FarmVehicle> implements Container<FarmVehicle>{
     @Override
-    public Object findSpecific() {
+    public FarmVehicle findSpecific() {
         return null;
     }
 
     @Override
-    public Object listAll() {
+    public FarmVehicle listAll() {
         return null;
     }
 
     @Override
-    public Object status() {
+    public FarmVehicle status() {
         return null;
     }
 
     @Override
-    public Object remove() {
+    public FarmVehicle remove() {
         return null;
     }
 
     @Override
-    public Object store() {
+    public FarmVehicle store() {
         return null;
     }
 

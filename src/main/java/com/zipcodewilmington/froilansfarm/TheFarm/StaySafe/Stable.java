@@ -1,39 +1,61 @@
 package com.zipcodewilmington.froilansfarm.TheFarm.StaySafe;
 
-import com.zipcodewilmington.froilansfarm.TheFarm.Container;
+import com.zipcodewilmington.froilansfarm.Animals.Horse;
 
-public class Stable extends Shelter <Container> {
 
-    /**
-     * Maintains a list of Horses there are 9
-     */
+public class Stable extends Shelter <Horse> {
 
-    @Override
-    public Object findSpecific() {
-        return null;
+    //create instances of stables
+
+    private Integer number;
+    private String type;
+    private Integer numberOfOccupants;
+
+    public Stable() {
+    }
+
+    public Stable(Integer number, String type, Integer numberOfOccupants) {
+        this.number = number;
+        this.type = type;
+        this.numberOfOccupants = numberOfOccupants;
     }
 
     @Override
-    public Object listAll() {
-        return null;
+    public Integer getNumber() {
+        return number;
     }
 
     @Override
-    public Object status() {
-        return null;
+    public void setNumber(Integer number) {
+        this.number = number;
     }
 
     @Override
-    public Object remove() {
-        return null;
+    public String getType() {
+        return type;
     }
 
     @Override
-    public Object store() {
-        return null;
+    public void setType(String type) {
+        this.type = type;
     }
 
+    @Override
+    public Integer getNumberOfOccupants() {
+        return numberOfOccupants;
+    }
 
+    @Override
+    public void setNumberOfOccupants(Integer numberOfOccupants) {
+        this.numberOfOccupants = numberOfOccupants;
+    }
 
-
+    @Override
+    public String toString() {
+        return "Stable{" +
+                "number=" + number +
+                ", type='" + type + '\'' +
+                ", numberOfOccupants=" + numberOfOccupants +
+                '}';
+    }
 }

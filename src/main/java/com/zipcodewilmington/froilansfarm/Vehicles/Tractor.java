@@ -1,8 +1,9 @@
 package com.zipcodewilmington.froilansfarm.Vehicles;
 
-import com.zipcodewilmington.froilansfarm.Animals.People.Farmer;
 
-public class Tractor implements FarmVehicle <Farmer>{
+import com.zipcodewilmington.froilansfarm.TheFarm.CropsCropRowField.Crop;
+
+public class Tractor implements FarmVehicle {
     @Override
     public String makeNoise() {
         return null;
@@ -27,8 +28,9 @@ public class Tractor implements FarmVehicle <Farmer>{
     public Boolean hasFuel() {
         return null;
     }
-    /**
-     *      harvest();
-     */
+
+    public <T extends Crop> String harvest(){
+        return null;
+    }
 
 }

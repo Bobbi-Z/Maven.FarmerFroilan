@@ -2,8 +2,9 @@ package com.zipcodewilmington.froilansfarm.Vehicles;
 
 import com.zipcodewilmington.froilansfarm.MultipackageInterfaces.NoiseMaker;
 import com.zipcodewilmington.froilansfarm.MultipackageInterfaces.Rideable;
+import com.zipcodewilmington.froilansfarm.TheFarm.Store;
 
-public interface Vehicle extends NoiseMaker, Rideable {
+public interface Vehicle extends NoiseMaker, Rideable, Store {
 
     Boolean hasFuel();
 

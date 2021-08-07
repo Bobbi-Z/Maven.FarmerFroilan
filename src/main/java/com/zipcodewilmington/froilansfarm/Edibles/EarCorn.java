@@ -1,8 +1,9 @@
 package com.zipcodewilmington.froilansfarm.Edibles;
 
 import com.zipcodewilmington.froilansfarm.MultipackageInterfaces.Consumable;
+import com.zipcodewilmington.froilansfarm.TheFarm.Store;
 
-public class EarCorn extends Consumable implements Edible{
+public class EarCorn extends Consumable implements Edible, Store {
 
     private String type;
     private Integer count;

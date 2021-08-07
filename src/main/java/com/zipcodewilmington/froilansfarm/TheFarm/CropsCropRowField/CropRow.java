@@ -1,6 +1,8 @@
 package com.zipcodewilmington.froilansfarm.TheFarm.CropsCropRowField;
 
-public class CropRow {
+import com.zipcodewilmington.froilansfarm.TheFarm.Store;
+
+public class CropRow implements Store {
 
     private Integer rowNumber;
     private String crop;

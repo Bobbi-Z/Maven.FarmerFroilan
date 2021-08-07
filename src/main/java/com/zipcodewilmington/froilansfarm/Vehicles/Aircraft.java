@@ -1,6 +1,6 @@
 package com.zipcodewilmington.froilansfarm.Vehicles;
 
-public interface Aircraft <Pilot> extends Vehicle {
+public interface Aircraft extends Vehicle {
     String fly();
     String land();
 

@@ -1,6 +1,8 @@
 package com.zipcodewilmington.froilansfarm.Edibles;
 
-public interface Edible {
+import com.zipcodewilmington.froilansfarm.TheFarm.Store;
+
+public interface Edible extends Store {
 
 
 }

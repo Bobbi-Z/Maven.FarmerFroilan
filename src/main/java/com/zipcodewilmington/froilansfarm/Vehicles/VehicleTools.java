@@ -1,4 +1,6 @@
 package com.zipcodewilmington.froilansfarm.Vehicles;
 
-public interface VehicleTools {
+import com.zipcodewilmington.froilansfarm.TheFarm.Store;
+
+public interface VehicleTools extends Store {
 }

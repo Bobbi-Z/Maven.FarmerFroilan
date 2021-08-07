@@ -1,7 +1,9 @@
 package com.zipcodewilmington.froilansfarm.TheFarm;
 
 
-public class Incubator implements Container {
+import com.zipcodewilmington.froilansfarm.Animals.BabyChicks;
+
+public class Incubator implements Container <BabyChicks> {
 
     /**
      * Once fertilized eggs are moved here they become BabyChicks
@@ -9,27 +11,27 @@ public class Incubator implements Container {
      */
 
     @Override
-    public Object findSpecific() {
+    public BabyChicks findSpecific() {
         return null;
     }
 
     @Override
-    public Object listAll() {
+    public BabyChicks listAll() {
         return null;
     }
 
     @Override
-    public Object status() {
+    public BabyChicks status() {
         return null;
     }
 
     @Override
-    public Object remove() {
+    public BabyChicks remove() {
         return null;
     }
 
     @Override
-    public Object store() {
+    public BabyChicks store() {
         return null;
     }
 

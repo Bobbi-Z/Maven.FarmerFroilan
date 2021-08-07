@@ -1,8 +1,9 @@
 package com.zipcodewilmington.froilansfarm.Animals;
 
 import com.zipcodewilmington.froilansfarm.MultipackageInterfaces.Rideable;
+import com.zipcodewilmington.froilansfarm.TheFarm.Store;
 
-public class Horse extends Animal implements Rideable {
+public class Horse extends Animal implements Rideable, Store {
 
     private Integer id;
     private Integer stableNumber;

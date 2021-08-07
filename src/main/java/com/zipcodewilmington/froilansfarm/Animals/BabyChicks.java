@@ -1,6 +1,8 @@
 package com.zipcodewilmington.froilansfarm.Animals;
 
-public class BabyChicks {
+import com.zipcodewilmington.froilansfarm.TheFarm.Store;
+
+public class BabyChicks implements Store {
 
     /** Baby chicks = Fertilized Eggs, hatched, sold 1x a week
      * possibility of 0-4 a day / 0-28 a week
