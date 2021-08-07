@@ -1,4 +1,4 @@
-package com.zipcodewilmington.froilansfarm.Produce.CanEat;
+package com.zipcodewilmington.froilansfarm.Edibles;
 
 import com.zipcodewilmington.froilansfarm.Vehicles.Consumable;
 

@@ -5,7 +5,7 @@ import com.zipcodewilmington.froilansfarm.IO.TheWeek.Week;
 public class Monday extends Week {
     /**
      *
-     *wake up()
+     *
      *  - reset all booleans
      *  -get inventory for edibles & consumables
      *
@@ -51,6 +51,8 @@ public class Monday extends Week {
      * 1.2 to 10.2 to row
      * plant(1-10 PotatoRoot Row 1);
      * 1.1 to 10.1 to row
+     * >>>>>croprow percentage in field would change
+     *
      *
      *  eat()//dinner //removes food from storage
      * has eaten(int) // check every meal

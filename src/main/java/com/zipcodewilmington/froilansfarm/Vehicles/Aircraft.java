@@ -7,6 +7,7 @@ public interface Aircraft <Pilot> extends Vehicle {
      *      <Rideable>move()</Rideable>
      *      <Vehicle></Vehicle>hasFuel();
      *      fly();
+     *      land();
      *
      *
      */
