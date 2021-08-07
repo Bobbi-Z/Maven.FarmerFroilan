@@ -1,26 +1,90 @@
 package com.zipcodewilmington.froilansfarm.TheFarm.CropsCropRowField;
 
 public class TomatoPlant extends Crop{
-    /**Create Instance of TomatoPlant
-     * <Producer>yield(numberOfTomato)</Producer> // can yield anywhere from 8-16 tomatoes per plant when fertilized
-     * <Producer>hasBeenFertilized()</Producer> //Ready to yield next day
-     * <Crop></Crop>hasBeenHarvested(); // EarCorn moved to storage && removed from row
-     * <Crop></Crop>hasBeenPlanted(); // ready to be fertilized next day && added to row
-     *
-     * TomatoPlant tomatoPlant = new TomatoPlant(int id, CropRow, Edible tomato,  Boolean fertilized,
-     * int yield)
+
+    /**
      * ID #s range from 1 - 30 id++ upon creation
      *int yield (){ Random # btw 8-16}
-     *
      *when harvest(Crop tomato, int yield) ->which should trigger
      *  tomatoCounter += yield update FoodStorage
      *  .remove from CropRow
-     *
-     *
-     *
-     *
      */
 
+    private Integer number;
+    private Integer rowNumber;
+    private String type;
+    private Boolean hasBeenFertilized;
+    private Integer yield;
 
+    public TomatoPlant() {
+    }
+
+    public TomatoPlant(Integer number, Integer rowNumber, String type, Boolean hasBeenFertilized, Integer yield) {
+        this.number = number;
+        this.rowNumber = rowNumber;
+        this.type = type;
+        this.hasBeenFertilized = hasBeenFertilized;
+        this.yield = yield;
+    }
+
+    @Override
+    public Integer getNumber() {
+        return number;
+    }
+
+    @Override
+    public void setNumber(Integer number) {
+        this.number = number;
+    }
+
+    @Override
+    public Integer getRowNumber() {
+        return rowNumber;
+    }
+
+    @Override
+    public void setRowNumber(Integer rowNumber) {
+        this.rowNumber = rowNumber;
+    }
+
+    @Override
+    public String getType() {
+        return type;
+    }
+
+    @Override
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    @Override
+    public Boolean getHasBeenFertilized() {
+        return hasBeenFertilized;
+    }
+
+    @Override
+    public void setHasBeenFertilized(Boolean hasBeenFertilized) {
+        this.hasBeenFertilized = hasBeenFertilized;
+    }
+
+    @Override
+    public Integer getYield() {
+        return yield;
+    }
+
+    @Override
+    public void setYield(Integer yield) {
+        this.yield = yield;
+    }
+
+    @Override
+    public Boolean hasBeenFertilized() {
+        return null;
+    }
+
+    @Override
+    public Integer yield() {
+        return null;
+    }
 
 }

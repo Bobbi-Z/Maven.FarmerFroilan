@@ -1,11 +1,11 @@
 package com.zipcodewilmington.froilansfarm.TheFarm;
 
-public interface Container <T> {
+public abstract class Container  {
 
-    T findSpecific(); //Read
-    T listAll(); //Read
-    T status(); //Update
-    T remove (); //Delete
-    T store(); //Create
+    public abstract <T extends Container> findSpecific(); //Read
+     listAll(); //Read
+     status(); //Update
+     remove (); //Delete
+     store(); //Create
 
 }

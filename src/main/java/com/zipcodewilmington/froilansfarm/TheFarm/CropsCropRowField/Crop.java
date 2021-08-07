@@ -1,22 +1,59 @@
 package com.zipcodewilmington.froilansfarm.TheFarm.CropsCropRowField;
 
+import com.zipcodewilmington.froilansfarm.Edibles.Edible;
 import com.zipcodewilmington.froilansfarm.MultipackageInterfaces.Producer;
 
-public class Crop implements Producer {
-    @Override
-    public Integer yield() {
-        return null;
+public abstract class Crop implements Producer {
+
+    protected Integer number;
+    protected Integer rowNumber;
+    protected String type;
+    protected Boolean hasBeenFertilized;
+    protected Integer yield;
+
+    public Integer getNumber() {
+        return number;
+    }
+
+    public void setNumber(Integer number) {
+        this.number = number;
+    }
+
+    public Integer getRowNumber() {
+        return rowNumber;
+    }
+
+    public void setRowNumber(Integer rowNumber) {
+        this.rowNumber = rowNumber;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public Boolean getHasBeenFertilized() {
+        return hasBeenFertilized;
+    }
+
+    public void setHasBeenFertilized(Boolean hasBeenFertilized) {
+        this.hasBeenFertilized = hasBeenFertilized;
+    }
+
+    public Integer getYield() {
+        return yield;
+    }
+
+    public void setYield(Integer yield) {
+        this.yield = yield;
     }
 
     @Override
-    public Boolean hasBeenFertilized() {
-        return null;
-    }
+    public abstract Boolean hasBeenFertilized();
 
-
-    /**
-     * <Crop></Crop>hasBeenHarvested(); // EarCorn moved to storage && removed from row
-     * <Crop></Crop>hasBeenPlanted(); // ready to be fertilized next day && added to row
-     *
-     */
+    @Override
+    public abstract Integer yield();
 }
